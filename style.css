@@ -1,0 +1,58 @@
+body{
+    width: 1333px;
+    height: 1333px;
+    font-family: Arial;
+    background: linear-gradient(0deg, rgba(255,77,251,1) 7%, rgba(208,32,169,1) 48%, rgba(168,12,94,1) 100%);
+}
+div{
+    background-color:rgba(252, 241, 241, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    
+  }
+section{
+    background-color:rgba(252, 241, 241, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-style: italic;
+    color: black;
+}
+button{
+    background-color: rgb(255, 152, 224);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(255, 0, 179);
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
+#cadastro{
+  font-size: 15px;
+  color: rgb(231, 132, 132);
+  text-decoration: underline;
+}
+a{
+      text-align: center;
+    font-size: 12px;
+}

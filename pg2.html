@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
+    <title>Cadastro</title>
+</head>
+<body>
+    <section id="cadastro">
+        <h1>Cadastro</h1>
+           <input type="text" placeholder="Name"><br><br>
+           <input type="email" placeholder="Email"> <br><br>
+           <input type="tel" required minlength="8" maxlength="15" name="Number" id="Number"  class="form-control wow fadeInUp" placeholder="Celular" oninput="this.value = this.value.replace(/[^0-9+()]/g, '');" pattern=".{8,10}" placeholder="123-45-678" /><br><br>
+           <input type="password" placeholder="password"><br><br>
+           <button>Send</button>
+           <a href="./index.html"><h3>Já tenho conta</h3></a>
+    </section>
+</body>
+</html>
